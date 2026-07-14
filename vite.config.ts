@@ -16,7 +16,8 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: "/DecodeLabs-BrewHaven/",
+  // Vercel ke liye
+  base: "/",
 
   plugins: [
     figmaAssetResolver(),
